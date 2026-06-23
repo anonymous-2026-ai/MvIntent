@@ -6,6 +6,6 @@
 
 1. Training: Run file run.sh in the folder: train_multicite 
 
-2. Testing: Run file run.sh in the folder: test_multicite
+2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: test_multicite, and run file run.sh.
 
 ## Multi-class classification
