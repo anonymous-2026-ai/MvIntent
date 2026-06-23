@@ -1,24 +1,24 @@
-for LEARNING_RATE in  1e-6
+for LEARNING_RATE in  1e-5
 do
 for n_word in 1
 do
 for n_sent in -1
 do
-for bs in 8
+for bs in 2
 do
-for SEED in 3
+for SEED in 0
 do 
 for ws in 0
 do
 for wd in 0
 do
-for alpha in 0.05
+for alpha in 0.9
 do 
     python run_citation_classification.py \
         --model_name_or_path allenai/scibert_scivocab_uncased \
         --model_type bert \
         --task_name ours \
-        --do_train --do_eval \
+        --do_train --do_test \
         --data_dir ../../datasets/data_acl_arc_cv \
         --max_seq_length 512 --per_gpu_train_batch_size ${bs} --per_gpu_eval_batch_size 1 \
         --learning_rate ${LEARNING_RATE} --num_train_epochs 20 \
