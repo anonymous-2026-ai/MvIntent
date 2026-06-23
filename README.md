@@ -1,4 +1,4 @@
-#This is the implementation code of MvIntent: Multi-view representation learning for citation intent classification in scientific publications
+# This is the implementation code of MvIntent: Multi-view representation learning for citation intent classification in scientific publications
 
 ## Environment setup 
 
