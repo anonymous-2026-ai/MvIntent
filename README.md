@@ -1,7 +1,11 @@
-This is the implementation code of MvIntent: Multi-view representation learning for citation intent classification in scientific publications
+# This is the implementation code of MvIntent: Multi-view representation learning for citation intent classification in scientific publications
 
-1) Environment setup 
+## Environment setup 
 
-2) Multi-label classification
+## Multi-label classification: We train and test the multi-label classfication model on MultiCite dataset.
 
-3) Multi-class classification
+1. Training: Run file run.sh in the folder: multi-label/train_multicite 
+
+2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: multi-label/test_multicite, and run file run.sh.
+
+## Multi-class classification
