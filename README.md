@@ -6,6 +6,6 @@
 
 1. Training: Run file run.sh in the folder: multi-label/train_multicite 
 
-2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: test_multicite, and run file run.sh.
+2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: multi-label/test_multicite, and run file run.sh.
 
 ## Multi-class classification
