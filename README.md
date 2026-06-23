@@ -8,4 +8,8 @@
 
 2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: multi-label/test_multicite, and run file run.sh.
 
-## Multi-class classification
+## Multi-class classification: We train and test the multi-class classfication model on ACL-ARC dataset.
+
+1. Training: Run file run.sh in the folder: multi-class/train_acl_arc 
+
+2. Testing: First, you need to move the checkpoint you want to evaluate to the folder: multi-class/test_acl_arc, and run file run.sh.
