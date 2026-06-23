@@ -1,0 +1,2 @@
+Barack Obama was born in Hawaii and served as the 44th president of the United States from 2009 to 2017.
+Moreover, compared to previous work that uses two models in tandem (Baevski et al., 2019b) , by using one model for both BERT pre-trainining and fine-tuning, our model provides an average relative WER reduction of 9%."

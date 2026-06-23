@@ -160,8 +160,6 @@ def _convert_examples_to_features(
 		labels = [label_from_example(example) for example in examples]
 		#labels = [example.label for example in examples]
 
-	# with open('data_new_1.json' , 'r', encoding='UTF-8') as f_full:
-	# 	full_data =  json.load(f_full)
 
 	list_chunk2ids  = [] # we have 4 list to save 
 	with open('check.json' ,'w') as f_w:

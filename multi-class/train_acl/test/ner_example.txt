@@ -1,0 +1,1 @@
+Recently impressive results have been reported for representation learning, that generalizes to different downstream tasks, through self-supervised learning for text and speech (Devlin et al., 2018; Baevski et al., 2019a; van den Oord et al., 2018; Baevski et al., 2019b) .
