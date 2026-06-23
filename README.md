@@ -4,4 +4,8 @@
 
 ## Multi-label classification: We train and test the multi-label classfication model on MultiCite dataset.
 
+1. Training
+
+2. Testing 
+
 ## Multi-class classification
