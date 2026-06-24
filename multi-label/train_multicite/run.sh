@@ -1,18 +1,18 @@
-for LEARNING_RATE in 1e-6
+for LEARNING_RATE in 7e-6 8e-6 9e-6 1e-5
 do
-for n_word in 1
+for n_word in 1 2 3 4 
 do
 for n_sent in -1
 do
-for bs in 4
+for bs in 2 4 8 16
 do
 for SEED in 0
 do 
-for ws in 0
+for ws in 0 500 1000 1500 2000 2500 3000
 do
 for wd in 0
 do
-for alpha in 0.2
+for alpha in 0.3 0.5 0.7 0.9 1.0
 do 
 	python run_citation_classification.py \
 		--model_name_or_path allenai/scibert_scivocab_uncased \
