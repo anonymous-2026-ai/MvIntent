@@ -10,7 +10,7 @@ for SEED in 0
 do 
 for ws in 0 500 1000 1500 2000 2500 3000
 do
-for wd in 0
+for wd in 0 0.01 0.1 0.5 1.0
 do
 for alpha in 0.3 0.5 0.7 0.9 1.0
 do 
