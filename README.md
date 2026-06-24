@@ -2,6 +2,8 @@
 
 ## Environment setup 
 
+1) Create python environment and install package in requirments.txt file. 
+
 ## Multi-label classification: We train and test the multi-label classfication model on MultiCite dataset.
 
 1. Training: Run file run.sh in the folder: multi-label/train_multicite 
