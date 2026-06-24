@@ -2,7 +2,7 @@
 
 ## Environment setup 
 
-1) Create python environment and install package in requirments.txt file.
+1) Create python environment and install packages in requirments.txt file.
 
 2) Set up only single GPU for both training and testing by the command line: export CUDA_VISIBLE_DEVICES=0
 
