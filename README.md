@@ -4,7 +4,7 @@
 
 1) Create python environment and install package in requirments.txt file.
 
-2) Set up only single GPU for both training and testing by the command: export CUDA_VISIBLE_DEVICES=0.
+2) Set up only single GPU for both training and testing by the command line: export CUDA_VISIBLE_DEVICES=0.
 
 ## Multi-label classification: We train and test the multi-label classfication model on MultiCite dataset.
 
