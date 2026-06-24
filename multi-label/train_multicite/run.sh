@@ -20,7 +20,7 @@ do
 		--task_name ours \
 		--do_train --do_eval \
 		--data_dir ../../datasets/data_multicite_triple\
-		--max_seq_length 512 --per_gpu_train_batch_size ${bs} --per_gpu_eval_batch_size 32 \
+		--max_seq_length 512 --per_gpu_train_batch_size ${bs} --per_gpu_eval_batch_size 1 \
 		--learning_rate ${LEARNING_RATE} --num_train_epochs 1 \
 		--output_dir result_baseline --seed ${SEED} \
 		--classification_type multilabel --overwrite_cache \
